@@ -1,0 +1,34 @@
+@import "../../styles/components/vars.scss";
+
+.right {
+  width: 100%;
+
+  .image {
+    width: 100%;
+    height: 50%;
+    max-height: 900px;
+    max-width: 690px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    // overflow: hidden !important;
+
+    // .block {
+    //   padding: 50px;
+    //   overflow: hidden !important;
+    //   height: 200px;
+    //   border: 2px solid red;
+
+    img {
+      transform: translateX(-26.8%);
+      min-width: 280% !important;
+      max-width: 280% !important;
+      min-height: 100% !important;
+      max-height: 100% !important;
+      // border: 1px solid !important;
+  
+    }
+    // }
+  }
+}
